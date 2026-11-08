@@ -490,6 +490,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 15
   rotSpeed: 5
+  lookAhead: 10
 --- !u!1 &142183633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,6 +1105,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!4 &284332916
 Transform:
   m_ObjectHideFlags: 0
@@ -1302,6 +1304,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!4 &308414478
 Transform:
   m_ObjectHideFlags: 0
@@ -1880,6 +1883,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!4 &557097945
 Transform:
   m_ObjectHideFlags: 0
@@ -2094,6 +2098,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!1 &598629759
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,6 +3053,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!4 &804994309
 Transform:
   m_ObjectHideFlags: 0
@@ -3297,6 +3303,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!1 &874804857
 GameObject:
   m_ObjectHideFlags: 0
@@ -3881,6 +3888,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 15
   rotSpeed: 5
+  lookAhead: 10
 --- !u!4 &1002177708
 Transform:
   m_ObjectHideFlags: 0
@@ -4089,6 +4097,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!4 &1055996275
 Transform:
   m_ObjectHideFlags: 0
@@ -4719,6 +4728,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 15
   rotSpeed: 5
+  lookAhead: 10
 --- !u!4 &1308118751
 Transform:
   m_ObjectHideFlags: 0
@@ -5653,6 +5663,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!1001 &1682920559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6496,6 +6507,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!4 &2030753129
 Transform:
   m_ObjectHideFlags: 0
@@ -7656,6 +7668,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!33 &2906081035041282102
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8790,6 +8803,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!54 &7863693248642204186
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8926,6 +8940,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 15
   rotSpeed: 5
+  lookAhead: 10
 --- !u!4 &8076435781734483058
 Transform:
   m_ObjectHideFlags: 0
@@ -9156,6 +9171,7 @@ MonoBehaviour:
   - {fileID: 1372066535}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

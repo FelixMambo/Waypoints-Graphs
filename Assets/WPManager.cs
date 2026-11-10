@@ -6,7 +6,7 @@ using UnityEngine;
 public struct Link{
     public enum direction { UNI, BI }
     public GameObject node1;
-    public GameObject nude2;
+    public GameObject node2;
     public direction dir;
 }
 
@@ -14,10 +14,19 @@ public class WPManager : MonoBehaviour
 {
     public GameObject[] waypoints;
     public Link[] links;
+    public Graph graph = new Graph();
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        if(waypoints.Length > 0){
+            foreach (GameObject wp in waypoints)
+            {
+                graph.AddNode(wp);
+            }
+            foreach(Link l in links){
+                graph.AddEdge(l.node1, l.node2);
+            }
+        }
     }
 
     // Update is called once per frame
